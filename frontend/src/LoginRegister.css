@@ -1,0 +1,33 @@
+@import url(./App.css);
+
+.Login, .Register{
+    background-color: var(--black);
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerPage{
+    color: white;
+    height: 100%;
+}
+
+.Form{
+    background-color: var(--violet);
+}
+
+.Form button{
+    background-color: var(--blue);
+}
+
+.input-group input{
+    color: white;
+    outline: none;
+    background-color: var(--violet);
+    border: solid 1px var(--blue);
+}
+
+#register-link, #login-link{
+    color: var(--blue);
+    text-decoration: underline;
+    cursor: pointer;
+}

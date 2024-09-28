@@ -1,0 +1,23 @@
+@import url(./App.css);
+
+.Home{
+    background-color: var(--black);
+    width: 100vw;
+    height: 100vh;
+}
+
+.add-task-form{
+    background-color: var(--violet);
+}
+
+.add-task-form button{
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+}
+
+.floating-group input{
+    background-color: var(--violet);
+    border: solid 1px var(--blue);
+    outline: none;
+}

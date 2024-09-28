@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --black: #1d1e2c;
+  --violet: #443956;
+  --blue: #00cfc1;
+  --red: #ef2d56;
+  --purple: #7a6f9b;
+}
+
+.floating-group{
+  position: relative;
+}
+
+.floating-label{
+  position: absolute;
+  left: 2%;
+  top: 10%;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.floating-input:not(:placeholder-shown) ~ .floating-label{
+  top: -35%;
+  background-color: var(--violet);
+  font-size: 12px;
+  color: white;
+}
+
+.floating-input:focus ~ .floating-label{
+  top: -35%;
+  background-color: var(--violet);
+  font-size: 12px;
+  color: white;
+}
